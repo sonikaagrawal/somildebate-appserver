@@ -1,9 +1,9 @@
 var mysql = require('mysql');
 var conn = mysql.createConnection({
-    host: "mysqldbserver.mysql.database.azure.com",
-    user: "sonika@mysqldbserver",
-    password: "Somildebatedb123",
-    database: 'somildebmysql'
+    host: "mysqldatabase-mysqlserver.mysql.database.azure.com",
+    user: "mysqladmin@mysqldatabase-mysqlserver",
+    password: "Somildebate123",
+    database: 'somildebate'
 });
 conn.connect(function (err) {
     if (err) throw err;
